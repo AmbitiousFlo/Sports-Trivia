@@ -1,12 +1,16 @@
-//  var requestUrl = "https://api.imgflip.com/get_memes"
+ var requestUrl = "https://api.imgflip.com/get_memes"
  
-//  fetch(requestUrl)
-//   .then(function (response) {
-//     return response.json();
-//   })
-//   .then(function (data) {
-//     console.log(data);
-//   });
+var hud = document.getElementById("hud")
+ 
+ fetch(requestUrl)
+  .then(function (response) {
+    return response.json();
+  })
+  .then(function (data) {
+    var memeUrl = data.data.memes[0].url;
+    hud.src = memeUrl;
+  });
 
-console.log("hello");
+
+  
 
