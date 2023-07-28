@@ -73,7 +73,7 @@ incrementScore = (num) => {
     scoreText.innerText = score;
 };
 
-const endpoint = 'https://opentdb.com/api.php?amount=10&category=21&difficulty=easy&type=multiple';
+const endpoint = 'https://opentdb.com/api.php?amount=5&category=21&difficulty=easy&type=multiple';
 fetch(endpoint)
     .then((res) => res.json())
     .then((loadedQuestions) => {
