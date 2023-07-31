@@ -69,7 +69,7 @@ function checkAnswer(){
             correctScore++;
             resultEl.innerHTML = `<p style="color: green;"><i class = "fas fa-check"></i>Correct Answer!</p>`; // This changes the color to green
         } else {
-            resultEl.innerHTML = `<p style="color: red;"><i class = "fas fa-times"></i>Incorrect Answer!</p> <small><b>Correct Answer: </b>${correctAnswer}</small>`; // This changes the color to red
+            resultEl.innerHTML = `<p style="color: blue;"><i class = "fas fa-times"></i>Incorrect Answer!</p> <small><b>Correct Answer: </b>${correctAnswer}</small>`; // This changes the color to red
         }
         askedCount++;
         checkCount(); // Calls function to check if all questions have been asked
