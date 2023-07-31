@@ -28,9 +28,9 @@ body{
 }
 .wrapper{
     background: #333; 
-    padding: 1.5rem 2rem 3rem 2rem; /* reduced the left and right padding */
-    width: 500px; /* reduced the width */
-    height: 500px; /* reduced the height */
+    padding: 1.5rem 2rem 3rem 2rem; 
+    width: 500px; 
+    height: 500px; 
     border-radius: 1.5rem; 
     position: relative;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.1);
@@ -38,7 +38,7 @@ body{
 .quiz-title{
     text-align: center;
     font-size: 2rem;
-    color: #000; /* This changes the text color to black */
+    color: #000; 
 }
 .quiz-score{
     text-align: right;
