@@ -37,6 +37,7 @@ document.addEventListener('DOMContentLoaded', function(){
 
 // Function to display the question and answer options
 function showQuestion(data){
+    hud.src="";
     checkBtn.disabled = false;
     correctAnswer = data.correct_answer;
     let incorrectAnswer = data.incorrect_answers;
@@ -111,7 +112,7 @@ function checkCount(){
     } else {
         setTimeout(function(){
             loadQuestion();
-        }, 300);
+        }, 2000);
     }
 }
 
@@ -148,12 +149,7 @@ var hud = document.getElementById("final")
 var hidden = document.getElementsByClassName("hide")
 
 
- for (let i = 0; i < hidden.length; i++) {
-    
-    hidden[i].classList.remove("hide")
-    
- }
- 
+
 
 
 
