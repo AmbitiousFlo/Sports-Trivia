@@ -29,12 +29,11 @@ body {
     background-image: url(https://d1e00ek4ebabms.cloudfront.net/production/97c4bc63-8cbd-48b2-b3dc-ec1288811c7b.png);
     background-size:cover;
 }
-
 .wrapper {
     background: rgba(0,0,0,0.8);
     padding: 1.5rem 2rem 3rem 2rem;
-    width: 500px;
-    height: 500px;
+    width: 600px;
+    height: 600px;
     border-radius: 1.5rem;
     position: relative;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.1);
@@ -43,7 +42,7 @@ body {
 .quiz-title{
     text-align: center;
     font-size: 6rem;
-    color: #ffffff; 
+    color: #FFFFFF;
     font-family: 'Handjet', cursive;
 }
 .quiz-score{
@@ -53,8 +52,8 @@ body {
     margin-bottom: 1rem;
     border: 5px solid var(--dark-color);
     font-weight: bold;
-    width: 80px; 
-    height: 40px; 
+    width: 80px;
+    height: 40px;
     margin: .5rem auto 1rem auto;
     color: white;
     border-radius: 0.5rem;
@@ -62,7 +61,6 @@ body {
     justify-content: center;
     align-items: center;
 }
-
 .quiz-question{
     font-family: 'Handjet', cursive;
     font-family: 'Victor Mono', monospace;
@@ -88,7 +86,6 @@ body {
     list-style-type: none;
     margin: 1rem 0;
 }
-
 .quiz-options li{
     font-family: 'Handjet', cursive;
     border-radius: 0.5rem;
@@ -100,7 +97,6 @@ body {
     background-color: var(--light-grey-color);
     box-shadow: 0 4px 0 0 black;
     transition: var(--transition);
-
 }
 .quiz-options li:hover{
     background-color: var(--grey-color);
@@ -110,14 +106,12 @@ body {
 }
 .quiz-options li:active{
     transform: scale(0.97);
-
 }
 .selected{
     background-color: var(--grey-color)!important;
     color: var(--dark-color)!important;
     border-color: var(--grey-color)!important;
     box-shadow: 0 4px 0 0 black!important;
-
 }
 .quiz-foot button{
     border: none;
@@ -136,11 +130,11 @@ body {
     color: var(orange);
     letter-spacing: 2px;
     transition: var(--transition);
-    box-shadow: 0 4px 0 0 #fa6102;
+    box-shadow: 0 4px 0 0 #FA6102;
 }
 .quiz-foot button:hover{
     background-color: var(rgb(180, 45, 4));
-    box-shadow: 0 4px 0 0 #fa6102;
+    box-shadow: 0 4px 0 0 #FA6102;
 }
 .quiz-foot button:active{
     transform: scale(0.95);
@@ -166,5 +160,17 @@ body {
 }
 #total-question,
 #correct-score {
-    color: black;
+    color: white;
+}
+.hide{
+    display: none;
+}
+
+#final{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+    height: 15rem;
+    padding-top: 5rem;
+    
 }

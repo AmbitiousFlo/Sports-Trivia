@@ -68,8 +68,24 @@ function checkAnswer(){
         if(selectedAnswer == HTMLDecode(correctAnswer)){
             correctScore++;
             resultEl.innerHTML = `<p style="color: green;"><i class = "fas fa-check"></i>Correct Answer!</p>`; // This changes the color to green
+            fetch(requestUrl)
+            .then(function (response) {
+              return response.json();
+            })
+            .then(function (data) {
+                  var memeUrl = data.data.memes[42].url;
+                  hud.src = memeUrl    
+            });
         } else {
-            resultEl.innerHTML = `<p style="color: blue;"><i class = "fas fa-times"></i>Incorrect Answer!</p> <small><b>Correct Answer: </b>${correctAnswer}</small>`; // This changes the color to red
+            resultEl.innerHTML = `<p style="color: red;"><i class = "fas fa-times"></i>Incorrect Answer!</p> <small><b>Correct Answer: </b>${correctAnswer}</small>`; // This changes the color to red
+            fetch(requestUrl)
+            .then(function (response) {
+              return response.json();
+            })
+            .then(function (data) {
+                  var memeUrl = data.data.memes[19].url;
+                  hud.src = memeUrl;
+            });
         }
         askedCount++;
         checkCount(); // Calls function to check if all questions have been asked
@@ -124,3 +140,21 @@ document.addEventListener('DOMContentLoaded', function(){
     totalQuestionEl.textContent = totalQuestions;
     correctScoreEl.textContent = correctScore;
 });
+
+
+var requestUrl = "https://api.imgflip.com/get_memes"
+ 
+var hud = document.getElementById("final")
+var hidden = document.getElementsByClassName("hide")
+
+
+ for (let i = 0; i < hidden.length; i++) {
+    
+    hidden[i].classList.remove("hide")
+    
+ }
+ 
+
+
+
+
