@@ -158,22 +158,3 @@ var hidden = document.getElementsByClassName("hide")
 
 
 
-//  fetch(requestUrl)
-//   .then(function (response) {
-//     return response.json();
-//   })
-//   .then(function (data) {
-//     if (correctScore <= 4) {
-//         var memeUrl = data.data.memes[19].url;
-//         hud.src = memeUrl;
-//       } if(correctScore >= 3) {
-//         var memeUrl = data.data.memes[42].url;
-//         hud.src = memeUrl;
-//       }
-//   });
-
-
-if (correctAnswer ++) {
-    console.log("hello");
-}
-  
