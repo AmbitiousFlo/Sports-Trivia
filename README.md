@@ -1,84 +1,43 @@
 # Sports Trivia
 
-## Description
+## User Story 
 
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
+As A user 
+I WANT to take a quiz on random sports facts
+So I can see how well I do after each question
+AND I can see my final score at the end of the quiz
 
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
 
-## Table of Contents (Optional)
+## Description 
 
-If your README is long, add a table of contents to make it easy for users to find what they need.
+Welcome to Sports Trivia! This project was created using HTML, CSS, and JavaScript, and was designed to test you on your sports trivia skills. In order to accomplish this project we used the <a href="https://opentdb.com/">Open Trivia Database API</a> as well as the<a href="https://imgflip.com/api"> Image Flip API.</a>
 
-- [Installation](#installation)
-- [Usage](#usage)
-- [Credits](#credits)
-- [License](#license)
+Leveraging Javascript with the two APIs we were able to associate a particular image depending on if you answered the question correctly or not. Each question has been pulled dynamically from the Open Trivia API in Java Script so it can randomize the questions for you. After answering the question you will be met with a "Correct"(Green) or Incorrect"(Red), depending on your answer you will also receive an image based on what you choose. Finally when you have finished you will receive your final results in red.
 
-## Installation
+# Motivation
 
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
+Our motivation for this project was to primarily learn how to work within a team enviornment to accomplish tasks in order to create a project that we all could be proud of, the love of sports helped guide our group on our topic for the project. After having a concise topic to work on the motivation for the project became easier and the more we worked on the Sports Trivia Quiz, seeing all of our thoughts come together so nicely made it all worth it.
 
-## Usage
+# Live Site: <a href="https://ambitiousflo.github.io/SportsTrivia/"> Sports Trivia</a>
 
-Provide instructions and examples for use. Include screenshots as needed.
+## Usage 
+ ![Screenshot of Sports Trivia](./Assets/Screenshot%202023-08-01%20193531.png) 
+ ![Screenshot of Sports Trivia](./Assets/Screenshot%202023-08-01%20193558.png) 
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative file path, add it to your README using the following syntax:
-
-![alt text](assets/images/screenshot.png)
-
-## Credits
-
-List your collaborators, if any, with links to their GitHub profiles.
-
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
-
-If you followed tutorials, include links to those here as well.
 
 ## License
 
-The last section of a high-quality README file is the license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com/).
-
----
-
-🏆 The previous sections are the bare minimum, and your project will ultimately determine the content of this document. You might also want to consider adding the following sections.
-
-## Badges
-
-![badmath](https://img.shields.io/github/languages/top/nielsenjared/badmath)
-
-Badges aren't necessary, but they demonstrate street cred. Badges let other developers know that you know what you're doing. Check out the badges hosted by [shields.io](https://shields.io/). You may not understand what they all represent now, but you will in time.
-
-## Features
-
-If your project has a lot of features, list them here.
-
-## How to Contribute
-
-If you created an application or package and would like other developers to contribute to it, you can include guidelines for how to do so. The [Contributor Covenant](https://www.contributor-covenant.org/) is an industry standard, but you can always write your own if you'd prefer.
-
-## Tests
-
-Go the extra mile and write tests for your application. Then provide examples on how to run them here.
-
-
-
-
-
-
-
-
-
+[MIT](https://github.com/git/git-scm.com/blob/main/MIT-LICENSE.txt)
 
 
 
 ## Refrences
-https://www.w3schools.com/css/css3_variables_overriding.asp
-https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties
-https://www.w3schools.com/cssref/sel_root.php
-https://opentdb.com/api_config.php
-https://www.youtube.com/watch?v=Vp8x8-reqZA&t=86s
- https://www.youtube.com/watch?v=-cX5jnQgqSM&t=11s
+<ol>
+<li><a href="https://opentdb.com/">Open Trivia Database API</a></li>
+<li><a href="https://imgflip.com/api"> Image Flip API</a></li>
+<li>https://www.w3schools.com/css/css3_variables_overriding.asp</li>
+<li>https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties</li>
+<li>https://www.w3schools.com/cssref/sel_root.php</li>
+<li>https://www.youtube.com/watch?v=Vp8x8-reqZA&t=86s</li>
+<li>https://www.youtube.com/watch?v=-cX5jnQgqSM&t=11s</li>
+<ol>
