@@ -18,7 +18,7 @@ Leveraging Javascript with the two APIs we were able to associate a particular i
 
 Our motivation for this project was to primarily learn how to work within a team enviornment to accomplish tasks in order to create a project that we all could be proud of, the love of sports helped guide our group on our topic for the project. After having a concise topic to work on the motivation for the project became easier and the more we worked on the Sports Trivia Quiz, seeing all of our thoughts come together so nicely made it all worth it.
 
-# Live Site: <a href="https://ambitiousflo.github.io/SportsTrivia/"> Sports Trivia</a>
+# Live Site: <a href="https://ambitiousflo.github.io/Sports-Trivia/"> Sports Trivia</a>
 
 ## Usage 
  ![Screenshot of Sports Trivia](./Assets/Screenshot%202023-08-01%20193531.png) 
