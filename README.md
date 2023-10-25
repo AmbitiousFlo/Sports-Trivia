@@ -30,14 +30,3 @@ Our motivation for this project was to primarily learn how to work within a team
 [MIT](https://github.com/git/git-scm.com/blob/main/MIT-LICENSE.txt)
 
 
-
-## Refrences
-<ol>
-<li><a href="https://opentdb.com/">Open Trivia Database API</a></li>
-<li><a href="https://imgflip.com/api"> Image Flip API</a></li>
-<li>https://www.w3schools.com/css/css3_variables_overriding.asp</li>
-<li>https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties</li>
-<li>https://www.w3schools.com/cssref/sel_root.php</li>
-<li>https://www.youtube.com/watch?v=Vp8x8-reqZA&t=86s</li>
-<li>https://www.youtube.com/watch?v=-cX5jnQgqSM&t=11s</li>
-<ol>
